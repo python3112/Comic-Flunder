@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg bg-body-secondary">
+    <div class="container-fluid">
+        <a href="/" class="navbar-brand col-md-1">
+            <img class="img-fluid rounded" src="/images/logoSuning.png"  alt="Ảnh lỗi">
+        </a>
+        <div class="collapse navbar-collapse col-md-9" id="navbarNavDropdown">
+            <ul class="w-50 navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium fs-5 " aria-current="page" href="/">Trang Chủ</a>
+                </li>   
+                <li class="nav-item">
+                    <a class="nav-link fw-medium fs-5" href="">Thể Loại</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium fs-5" href="">Sản Phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium fs-5" href="">Người Dùng</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Dùng lớp "d-none d-md-block" để ẩn user-info khi ở kích cỡ điện thoại (nhỏ hơn "md") -->
+        <div class="user-info col-md-2">
+            <div class="dropdown">
+                <div class="dropdown-toggle" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="me-2 d-none d-lg-inline text-gray-600 small"></span>
+                  
+                          <img class="user-avatar" src=""  alt="">
+                      
+                      
+                          
+                    <!-- <img class="user-avatar" src="" alt="Avatar"> -->
+                    
+                </div>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                    <li><a class="dropdown-item" href=""></a></li>
+                 
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>

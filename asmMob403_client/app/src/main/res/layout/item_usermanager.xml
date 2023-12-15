@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_item_user"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/lavender"
+    android:layout_height="wrap_content">
+
+
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:paddingTop="10dp"
+       android:paddingBottom="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_gravity="center"
+           android:id="@+id/img_Avata_userManager"
+           android:src="@drawable/setting"
+           android:layout_width="110dp"
+           android:layout_height="100dp"/>
+
+       <LinearLayout
+           android:layout_weight="1"
+            android:layout_margin="10dp"
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/user_manager_username"
+               android:text="name : hoandgs"
+               android:textSize="17dp"
+               android:textColor="@color/white"
+               android:maxLines="1"
+               android:ellipsize="end"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:id="@+id/user_manager_fullname"
+               android:text="fullname: vu huy honag"
+               android:textSize="17dp"
+               android:textColor="@color/white"
+               android:maxLines="1"
+               android:ellipsize="end"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:text="email: vu huy honag"
+               android:id="@+id/user_manager_email"
+               android:textColor="@color/white"
+               android:textSize="17dp"
+               android:maxLines="1"
+               android:ellipsize="end"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:text="role : admin"
+               android:id="@+id/user_manager_role"
+               android:textColor="@color/white"
+               android:textSize="17dp"
+               android:maxLines="1"
+               android:ellipsize="end"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+
+
+       </LinearLayout>
+
+
+       <ImageButton
+
+           android:layout_gravity="center"
+           android:id="@+id/img_delete"
+           android:src="@drawable/delete_user"
+           android:layout_width="50dp"
+           android:layout_height="70dp"/>
+
+   </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

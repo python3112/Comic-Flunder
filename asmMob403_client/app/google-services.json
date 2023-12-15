@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163763568681",
+    "project_id": "asmmob403-1a367",
+    "storage_bucket": "asmmob403-1a367.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163763568681:android:5761ee8bb0ed07f3995c38",
+        "android_client_info": {
+          "package_name": "hoangvhph29660.fpt.edu.asmmob403_client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc8cE7yg1eJUYmXSxuLiryy5tphA_tvT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

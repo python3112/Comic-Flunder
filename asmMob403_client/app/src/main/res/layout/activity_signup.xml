@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+
+    <LinearLayout
+        android:id="@+id/boder_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/boder_bottom"
+        android:backgroundTint="#005B9A"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:fontFamily="@font/my_font"
+            android:text="register"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_below="@id/img_logo"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#005B9A"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            android:id="@+id/til_email_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_email_register"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text|textNoSuggestions"
+                android:layout_height="65dp"
+                android:hint="email" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#005B9A"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            android:id="@+id/til_username_register"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_username_register"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text|textNoSuggestions"
+                android:layout_height="65dp"
+                android:hint="username" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#005B9A"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            android:id="@+id/til_fullname_register"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_fullname_register"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="text|textNoSuggestions"
+                android:layout_height="65dp"
+                android:hint="fullname " />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#005B9A"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            android:id="@+id/til_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_password_register"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:inputType="textPassword|textNoSuggestions"
+                android:layout_height="65dp"
+                android:hint="password" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#005B9A"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            android:id="@+id/til_repassword_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_repassword_register"
+                android:inputType="textPassword|textNoSuggestions"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:layout_height="65dp"
+                android:hint="re password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_signup"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+
+            android:text="sign up"
+            android:textSize="17dp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <ImageView
+
+        android:id="@+id/img_logo"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@id/boder_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:maxWidth="300dp"
+        android:src="@drawable/logo_comic2" />
+
+
+
+</RelativeLayout>

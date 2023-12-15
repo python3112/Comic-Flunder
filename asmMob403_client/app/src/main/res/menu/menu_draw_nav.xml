@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/group_user" android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home_nav"
+            />
+        <item
+            android:id="@+id/setting_pro"
+            android:icon="@drawable/setting"
+            android:title="Setting Profle" />
+
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/favorite_comic"
+            android:title="Favorite Comic" />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/group_admin"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/user_manager"
+            android:icon="@drawable/management"
+            android:title="User management" />
+        <item
+            android:id="@+id/cate_manager"
+            android:icon="@drawable/cate_manament"
+            android:title="Category management" />
+        <item
+            android:id="@+id/comic_manager"
+            android:icon="@drawable/comic_manager"
+            android:title="Comic management" />
+    </group>
+
+
+    <group >
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log out" />
+    </group>
+</menu>
