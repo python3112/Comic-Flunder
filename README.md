@@ -4,4 +4,4 @@ file server
 - nodejs(express) , ejs  , multer(save images) , nodemon , mongoose
   
 file client
-- android java , retrofit(callApi) , gson , converter-gson  
+- android java , retrofit(callApi) , gson , converter-gson   , glide(load images) , circleimageview (radius image)
